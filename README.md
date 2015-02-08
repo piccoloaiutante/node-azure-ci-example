@@ -55,7 +55,7 @@ To https://piccoloaiutante@test-express.scm.azurewebsites.net:443/test-express.g
    c6cb637..44d946b  master -> master
 PS C:\Users\michele\node-azure-ci-example>
 ```
-In brief:
+In brief this is what happened:
 
     * in the first part you have the git pull of the code from the repo 
     * the execution of `.deployment` and `deploy.cmd`
