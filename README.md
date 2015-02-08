@@ -10,6 +10,8 @@ The solution is composed of 4 main files:
 
 Pushing this repo on an Azure Web Site (configured to be used with Git as source) will automatically deploy your app if tests are passed.
 
+For more information about how to deploy node.js on Azure Web Site check this [article](http://azure.microsoft.com/en-us/documentation/articles/web-sites-nodejs-develop-deploy-mac/).
+
 All you have to do is to add the Azure Web Site as origin and then push master on it.
 
 Then you should see an output like this:
