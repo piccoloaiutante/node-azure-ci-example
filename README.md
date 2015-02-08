@@ -53,3 +53,7 @@ To https://piccoloaiutante@test-express.scm.azurewebsites.net:443/test-express.g
    c6cb637..44d946b  master -> master
 PS C:\Users\michele\node-azure-ci-example>
 ```
+
+As you can see in the first part you have the git pull of the code, then the execution of `.deployment` and `deploy.cmd`. 
+After this execution there is the output of the green test runned `calling root url should return 200`.
+Finally because the tests are green the solution is deployed on the new website.
